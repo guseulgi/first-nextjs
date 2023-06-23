@@ -4,8 +4,17 @@ import React from 'react'
 export default function Cart() {
   return (
     <div>
-      <h2 className='title'>장바구니</h2>
-      <Link href='/cart/payment' className='title-sub'>결제하기</Link>
+      <h4 className="title">Cart</h4>
+      <div className="cart-item">
+        <p>상품명</p>
+        <p>$40</p>
+        <p>1개</p>
+      </div>
+      <div className="cart-item">
+        <p>상품명</p>
+        <p>$40</p>
+        <p>1개</p>
+      </div>
     </div>
   )
-}
+} 
